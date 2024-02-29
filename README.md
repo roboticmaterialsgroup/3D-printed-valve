@@ -12,28 +12,27 @@ Bill of material:
 * Extruding nozzle
 
 The 3D printed soft fluidic valve consists of 3 components (Figure 1A)
-•	Body with membrane 
-•	Caps (2x)
-•	Tubing (2x) 
+* Body with membrane 
+* Caps (2x)
+*	Tubing (2x) 
 
 ## Assembly of 3D printed valve 
 Once you have all the components, we will investigate assembly process. You will need following tools for the assembly process (Figure 2A).
-•	Flush cutter
-•	Superglue
-•	Twizers
-•	Gloves
-•	Vernier caliper
-•	Custom 3D printed assembly tool
+*	Flush cutter
+*	Superglue
+*	Twizers
+*	Gloves
+*	Vernier caliper
+*	Custom 3D printed assembly tool
 
 Please follow provided instructions for the assembly process of the soft bi-stable valve
 1.	First, we will start with the cap and tubing. The tubings are extruded using a custom nozzle. Also check for thinner side of tube and put the thicker side inwards (to not easily kink). Figure 2B shows a wrong configuration where the thinner side of tubing is facing inward, and the tube will kink by itself. 
 2.	NOTE: This step is especially important. It is one of the most common causes of failure. Feel free to throw away pieces of tubing that always kink by itself in any direction (Figure 2B).
 3.	We use following tube lengths for the top and bottom side of the tubing.
-•	Top: 11.5 mm + 1.5 mm spacer
-•	Bottom: 8 mm
+*	Top: 11.5 mm + 1.5 mm spacer
+*	Bottom: 8 mm
 4.	Before sticking the tubes, soften them by crushing it in different directions (kink every single part of tube, thus tube is less prone to kink by itself) (Figure 2B).
 
- 
 
 Top tube assembly process. A) Applying glue to the spacer of the top tubing B) Use the 3D printed tool to make sure the tube is perfectly perpendicular and C) applying slight pressure to stick spacer to the membrane
 
