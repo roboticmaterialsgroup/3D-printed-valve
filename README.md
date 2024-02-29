@@ -3,21 +3,77 @@ A 3D printed valve is a device that has a membrane that opens or closes tubing d
 
 This repo will serve as an user guide for the 3D printable valve. Topics coverred includes: (1) Fabrication and Assembily Guide, (2) Characterization of the device, (3) Demostrations, (4) Tube extruding nozzle design, (5) Feedback from using the device as education tool. Since the design is based on the valve design introduced in the "Digital logic for soft devices" paper $^{[2]}$, we sometimes refer to our designs as soft bi-stable / mono-stable valve as well.
 
+## Fabrication 
 
-## Fabrication, Assembily and Configureation Guide
+Bill of material:
+* Mk3S 3D printer (https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-3/)
+* Filaflex 60 A filament(https://recreus.com/gb/filaments/1-filaflex-60a.html)
+* Ninjaflex 85 A filament (https://ninjatek.com/shop/ninjaflex/)
+* Extruding nozzle
 
-The fabricaiton of the devices are done on the [Prusa MK3S+ desktop 3D printer](https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-3/). Filament used are [NinjaFlex 85A](https://ninjatek.com/shop/ninjaflex/) and [FilaFlex 60A](https://recreus.com/gb/filaments/1-filaflex-60a.html).
+The 3D printed soft fluidic valve consists of 3 components (Figure 1A)
+•	Body with membrane 
+•	Caps (2x)
+•	Tubing (2x) 
 
+## Assembly of 3D printed valve 
+Once you have all the components, we will investigate assembly process. You will need following tools for the assembly process (Figure 2A).
+•	Flush cutter
+•	Superglue
+•	Twizers
+•	Gloves
+•	Vernier caliper
+•	Custom 3D printed assembly tool
+
+Please follow provided instructions for the assembly process of the soft bi-stable valve
+1.	First, we will start with the cap and tubing. The tubings are extruded using a custom nozzle. Also check for thinner side of tube and put the thicker side inwards (to not easily kink). Figure 2B shows a wrong configuration where the thinner side of tubing is facing inward, and the tube will kink by itself. 
+2.	NOTE: This step is especially important. It is one of the most common causes of failure. Feel free to throw away pieces of tubing that always kink by itself in any direction (Figure 2B).
+3.	We use following tube lengths for the top and bottom side of the tubing.
+•	Top: 11.5 mm + 1.5 mm spacer
+•	Bottom: 8 mm
+4.	Before sticking the tubes, soften them by crushing it in different directions (kink every single part of tube, thus tube is less prone to kink by itself) (Figure 2B).
+
+ 
+
+Top tube assembly process. A) Applying glue to the spacer of the top tubing B) Use the 3D printed tool to make sure the tube is perfectly perpendicular and C) applying slight pressure to stick spacer to the membrane
+
+5.	First, we will start inserting the top tube through the holes of top cap. Make sure the distance for the top tube is 11.5 mm and bottom tube is 8 mm. Please measure the distance using vernier caliper (Figure 2C). The 1 mm spacer is the part of the tube, cut 1.5 mm piece and attach to the tubing as shown. Apply glue to top of tube and stick to the spacer (Figure 2D).
+6.	Write down length of tube at the bottom of cap (write “8” or “11.5+1.5”). When glue is dried, start assembling the cap to the body.
+7.	Apply half a drop / a drop of glue to top of spacer. With help of the printed tool, slightly press the spacer at the center of membrane (Figure 3A and 3B).
+8.	Make sure that the tube is perfectly perpendicular to the holes on membrane body (all three lines in Figure 3B are perpendicular to each other) (Figure 3C). When glue dries, start to glue top cap to the body.
+9.	Make sure to protect your hands with glues in this step. Put lots of glue around the cap and push the cap inside body. Glue should overflow, and it will help seal the parts.
+10.	For better gluing, better to apply some glue to top surface of the cap (Figure 4A). This will make cap stick to body from the inside. 
+11.	Follow the same procedure for the bottom tube, here you will not need any spacer and no need to glue the bottom tubing to the membrane. 
+12.	Put some clamps from both side of the cap to hold the three parts together (Figure 4B and 4C). Start with the cap without forces from membrane, which is bottom cap. This way it’s easier. It’s fine to destroy some gloves at this point.
+
+ 
+
+Complete valve assembly process. A) Applying glue to  the cap for gluing to body B) Putting both the bottom and top cap together and C) using clamps D) Test the device to confirm that it is not leaking and correctly kinking. 
+
+13.	Also, don’t apply too much pressure when sticking them together. Having a lot of glue between cap and body makes a very robust seal and helps the structure retain high pressure. It’s encouraged to apply more glue to ensure air-tightness. This is the final chance to fix non-perpendicular problem. Make sure to make it perpendicular.
+14.	Once you have the valve entirely assembled, please check for the airtightness (Figure 4D).
+15.	Configure the valve to NOT gate and check if you are able to obtain that behavior.
+
+4.	Configuration process
+
+First for the testing purpose, you will configure the device into NOT gate. Here is the configuration schematic. You will include the truth table of the device in the lab report. Also, you will configure the device into AND gate and OR gate, include the truth table for the configurations.
+
+ 
+
+The soft bistable valve configured as NOT gate A) The representation of NOT gate and truth table B) The schematic and C) 3D printed valve configured as NOT gate. 
+
+
+
+
+
+Note:
 Details on how to fabricate, assemble and configure the soft valves are detailed in [this document](https://github.com/roboticmaterialsgroup/3D-printed-valve/blob/master/fabrication/Bi-stable_Valve_Fabrication_Instructions.pdf). 
 The CAD file, stl file, gcode, printer configurations are also provided in the same folder.
 
 
 ## Characterization of the Device
 
-
-
 ## Demos
-
 
 <!--
 <div style="display: flex; flex-direction: row;">
@@ -57,17 +113,13 @@ The CAD file, stl file, gcode, printer configurations are also provided in the s
 
 
 
-## Tube Extruding Nozzle Design
+## Tube extruding nozzle
 
 ![](pic/nozzle_design.png)
 
 This figure shows 3D model of the tube-extruding printing nozzle including a schematic and a cross-sectional view. 
 
 [Here]() is a video showing the tube-extruding in progress.
-
-
-
-
 
 
 ## Link to supplemental resources
@@ -90,9 +142,6 @@ D.J. Preston, H.J. Jiang, V. Sanchez, P. Rothemund, J. Rawson, M.P. Nemitz, W.-K
 M.P. Nemitz, C.K. Abrahamsson, L. Wille, D.J. Preston, A.A. Stokes, G.M. Whitesides  
 [IEEE Soft Robotics Conference, New Haven, 2020](https://cpb-us-w2.wpmucdn.com/wp.wpi.edu/dist/e/484/files/2021/09/Soft_Non-Volatile_Memory_for_Non-Electronic_Information_Storage_in_Soft_Robots.pdf)  
 
-
-### Materials 
-* Ninjaflex 85A filament
 
 ## References
 ```
