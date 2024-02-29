@@ -91,25 +91,8 @@ M.P. Nemitz, C.K. Abrahamsson, L. Wille, D.J. Preston, A.A. Stokes, G.M. Whitesi
 [IEEE Soft Robotics Conference, New Haven, 2020](https://cpb-us-w2.wpmucdn.com/wp.wpi.edu/dist/e/484/files/2021/09/Soft_Non-Volatile_Memory_for_Non-Electronic_Information_Storage_in_Soft_Robots.pdf)  
 
 
-
-
-## Fabrication of a 3D printed valve
-Please read all instruction before you begin the process. 
-
-<img width="1183" alt="Screen Shot 2022-03-08 at 7 34 11 AM" src="https://user-images.githubusercontent.com/68814774/157252858-aac9fc8c-4152-4e48-b00f-7ba56cdcffba.png">
-
-
 ### Materials 
 * Ninjaflex 85A filament
-
-
-### Setting up
-
-
-
-
-
-
 
 ## References
 ```
