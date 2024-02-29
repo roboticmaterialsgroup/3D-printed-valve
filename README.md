@@ -67,7 +67,6 @@ The soft bistable valve configured as NOT gate A) The representation of NOT gate
 
 
 Note:
-Details on how to fabricate, assemble and configure the soft valves are detailed in [this document](https://github.com/roboticmaterialsgroup/3D-printed-valve/blob/master/fabrication/Bi-stable_Valve_Fabrication_Instructions.pdf). 
 The CAD file, stl file, gcode, printer configurations are also provided in the same folder.
 
 
