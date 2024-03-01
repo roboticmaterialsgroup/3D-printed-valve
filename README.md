@@ -83,6 +83,19 @@ The CAD file, stl file, gcode, printer configurations are also provided in the s
 </div>
 -->
 
+<img src="pic/XOR_demo.png" width="200">
+<img src="pic/XOR_demo.png" width="200">
+<img src="pic/XOR_demo.png" width="50%">
+<img src="pic/XOR_demo.png" width="40%">
+
+Optimised XOR gate. (A) An INHIBIT gate along with the truth table and schematic representation. (B) The circuit diagram of XOR gate with five logic gates. When we optimise the XOR gate using an INHIBIT gate, we only require three logic gates. (C) The assembly of a XOR gate from our 3D printed valves. (D) Implementation of an optimized XOR gate with the output directly connected to a soft display. When both inputs of the XOR gate are HIGH ($A=1$ and $B=1$), the output is LOW ($Q=0$).
+
+
+| ![Kiku](pic/XOR_demo.png) | ![Kiku](pic/Dlatch_demo.png) |
+| --------------------------------------- | --------------------------------------- |
+| ![Kiku](pic/XOR_demo.png) | 
+
+
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
         <img src="pic/XOR_demo.png" style="max-width: 100%; height: auto;" />
