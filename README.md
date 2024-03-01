@@ -115,11 +115,11 @@ The CAD file, stl file, gcode, printer configurations are also provided in the s
 
 ## Tube extruding nozzle
 
-![](pic/nozzle_design.png)
+<img src="pic/nozzle_design.png" width="450" height="200"> 
 
 This figure shows 3D model of the tube-extruding printing nozzle including a schematic and a cross-sectional view. 
 
-[Here]() is a video showing the tube-extruding in progress.
+[https://youtu.be/pW0tsSzDVcI]() is a video showing the tube-extruding in progress.
 
 
 ## Link to supplemental resources
