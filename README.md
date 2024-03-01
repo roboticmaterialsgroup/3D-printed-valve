@@ -16,6 +16,7 @@ The 3D printed soft fluidic valve consists of 3 components (Figure 1A)
 * Caps (2x)
 *	Tubing (2x) 
 
+
 ## Assembly of 3D printed valve 
 Once you have all the components, we will investigate assembly process. You will need following tools for the assembly process (Figure 2A).
 *	Flush cutter
@@ -25,7 +26,10 @@ Once you have all the components, we will investigate assembly process. You will
 *	Vernier caliper
 *	Custom 3D printed assembly tool
 
-Please follow provided instructions for the assembly process of the soft bi-stable valve
+
+<img src="pic/nozzle_design.png" width="450" height="200"> 
+
+Please follow provided instructions for the assembly process of the 3D printed valve
 1.	First, we will start with the cap and tubing. The tubings are extruded using a custom nozzle. Also check for thinner side of tube and put the thicker side inwards (to not easily kink). Figure 2B shows a wrong configuration where the thinner side of tubing is facing inward, and the tube will kink by itself. 
 2.	NOTE: This step is especially important. It is one of the most common causes of failure. Feel free to throw away pieces of tubing that always kink by itself in any direction (Figure 2B).
 3.	We use following tube lengths for the top and bottom side of the tubing.
@@ -58,11 +62,6 @@ Complete valve assembly process. A) Applying glue to  the cap for gluing to body
 First for the testing purpose, you will configure the device into NOT gate. Here is the configuration schematic. You will include the truth table of the device in the lab report. Also, you will configure the device into AND gate and OR gate, include the truth table for the configurations.
 
  
-
-The soft bistable valve configured as NOT gate A) The representation of NOT gate and truth table B) The schematic and C) 3D printed valve configured as NOT gate. 
-
-
-
 
 
 Note:
@@ -119,12 +118,11 @@ The CAD file, stl file, gcode, printer configurations are also provided in the s
 
 This figure shows 3D model of the tube-extruding printing nozzle including a schematic and a cross-sectional view. 
 
-[https://youtu.be/pW0tsSzDVcI]() is a video showing the tube-extruding in progress.
+[https://www.youtube.com/watch?v=pW0tsSzDVcI] is a video showing the tube-extruding in progress.
 
 
 ## Link to supplemental resources
 This file contains links to the supplemental information on how to construct the soft fluidic valve. It also includes important physical considerations for the operation of the valve. 
-
 
 [1] A soft, bistable valve for autonomous control of soft actuators  
 P. Rothemund, A. Ainla, L. Belding, D.J. Preston, S. Kurihara, Z. Suo, G.M. Whitesides  
@@ -142,23 +140,4 @@ D.J. Preston, H.J. Jiang, V. Sanchez, P. Rothemund, J. Rawson, M.P. Nemitz, W.-K
 M.P. Nemitz, C.K. Abrahamsson, L. Wille, D.J. Preston, A.A. Stokes, G.M. Whitesides  
 [IEEE Soft Robotics Conference, New Haven, 2020](https://cpb-us-w2.wpmucdn.com/wp.wpi.edu/dist/e/484/files/2021/09/Soft_Non-Volatile_Memory_for_Non-Electronic_Information_Storage_in_Soft_Robots.pdf)  
 
-
-## References
-```
-[1]:
-@article{
-doi:10.1073/pnas.1820672116,
-author = {Daniel J. Preston  and Philipp Rothemund  and Haihui Joy Jiang  and Markus P. Nemitz  and Jeff Rawson  and Zhigang Suo  and George M. Whitesides },
-title = {Digital logic for soft devices},
-journal = {Proceedings of the National Academy of Sciences},
-volume = {116},
-number = {16},
-pages = {7750-7759},
-year = {2019},
-doi = {10.1073/pnas.1820672116},
-URL = {https://www.pnas.org/doi/abs/10.1073/pnas.1820672116}
-}
-
-
-```
 
