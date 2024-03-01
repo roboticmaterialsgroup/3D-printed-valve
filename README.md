@@ -27,7 +27,7 @@ Here is the video of 3D printing body and caps on Prusa Mk3S printer (https://yo
 
 ## Fabrication of extuding tubing
 
-<img src="pic/nozzle_design.png" width="450" height="200"> 
+<img src="Images/nozzle_design.png" width="450" height="200"> 
 
 This figure shows 3D model of the tube-extruding printing nozzle including a schematic and a cross-sectional view. 
 
