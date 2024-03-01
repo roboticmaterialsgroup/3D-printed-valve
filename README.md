@@ -82,7 +82,7 @@ The CAD file, stl file, gcode, printer configurations are also provided in the s
     <img src="pic/nozzle_design.png" width="50%" />
 </div>
 -->
-
+<!--
 <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
         <img src="pic/XOR_demo.png" style="max-width: 100%; height: auto;" />
@@ -94,6 +94,8 @@ The CAD file, stl file, gcode, printer configurations are also provided in the s
         </p>
     </div>
 
+
+<!--
 </div>
 
 <br>
@@ -108,7 +110,7 @@ The CAD file, stl file, gcode, printer configurations are also provided in the s
     </div>
 </div>
 
-
+-->
 
 
 ## Tube extruding nozzle
