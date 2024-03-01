@@ -71,7 +71,7 @@ The CAD file, stl file, gcode, printer configurations are also provided in the s
 
 ## Characterization of the Device
 
-## Demos
+
 
 <!--
 <div style="display: flex; flex-direction: row;">
