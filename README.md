@@ -25,9 +25,9 @@ The 3D printed soft fluidic valve consists of 3 components (Figure 1A)
 Figure 1. The 3D printed soft fluidic valve. A) The exploded view of the valve along with its components B) Cut view of 3D printed valve and C) fully assembled valve D) CAD file of the cap.
 
 ## Fabrication of Body and Caps
-The 3D printed valve is categorised into two design, mono- and bistable design. We uploaded the CAD file, stl. file, gcode profiles for body and caps in the CAD folder of this repository. 
+The 3D printed valve is categorized into two designs: mono- and bistable designs. We have uploaded the CAD file, STL file, and G-code profiles for the body and caps in the CAD folder of this repository.
 
-Here is the video of 3D printing body and caps on Prusa Mk3S printer (https://youtu.be/z_FRGywTmZA)
+Here is the video of 3D printing the body and caps on the Prusa Mk3S printer (https://youtu.be/z_FRGywTmZA)
 
 
 ## Fabrication of extuding tubing
@@ -72,77 +72,29 @@ Please follow provided instructions for the assembly process of the 3D printed v
 Figure 3 Top tube assembly process. A) Applying glue to the spacer of the top tubing B) Use the 3D printed tool to make sure that the tube is perfectly perpendicular and C) applying slight pressure to stick spacer to the membrane
 
 4.	First, we will start inserting the top tube through the holes of top cap. Make sure the distance for the top tube is 11.5 mm and bottom tube is 8 mm. Please measure the distance using vernier caliper (Figure 2C). The 1 mm spacer is the part of the tube, cut 1.5 mm piece and attach to the tubing as shown. Apply glue to top of tube and stick to the spacer (Figure 2D).
-6.	Write down length of tube at the bottom of cap (write “8” or “11.5+1.5”). When glue is dried, start assembling the cap to the body.
-7.	Apply half a drop / a drop of glue to top of spacer. With help of the printed tool, slightly press the spacer at the center of membrane (Figure 3A and 3B).
-8.	Make sure that the tube is perfectly perpendicular to the holes on membrane body (all three lines in Figure 3B are perpendicular to each other) (Figure 3C). When glue dries, start to glue top cap to the body.
-9.	Make sure to protect your hands with glues in this step. Put lots of glue around the cap and push the cap inside body. Glue should overflow, and it will help seal the parts.
-10.	For better gluing, better to apply some glue to top surface of the cap (Figure 4A). This will make cap stick to body from the inside. 
-11.	Follow the same procedure for the bottom tube, here you will not need any spacer and no need to glue the bottom tubing to the membrane. 
-12.	Put some clamps from both side of the cap to hold the three parts together (Figure 4B and 4C). Start with the cap without forces from membrane, which is bottom cap. This way it’s easier. It’s fine to destroy some gloves at this point.
+5.	Write down length of tube at the bottom of cap (write “8” or “11.5+1.5”). When glue is dried, start assembling the cap to the body.
+6.	Apply half a drop / a drop of glue to top of spacer. With help of the printed tool, slightly press the spacer at the center of membrane (Figure 3A and 3B).
+7.	Make sure that the tube is perfectly perpendicular to the holes on membrane body (all three lines in Figure 3B are perpendicular to each other) (Figure 3C). When glue dries, start to glue top cap to the body.
+8.	Make sure to protect your hands with glues in this step. Put lots of glue around the cap and push the cap inside body. Glue should overflow, and it will help seal the parts.
+9.	For better gluing, better to apply some glue to top surface of the cap (Figure 4A). This will make cap stick to body from the inside.
+10.	Follow the same procedure for the bottom tube, here you will not need any spacer and no need to glue the bottom tubing to the membrane.
+11.	Put some clamps from both side of the cap to hold the three parts together (Figure 4B and 4C). Start with the cap without forces from membrane, which is bottom cap. This way it’s easier. It’s fine to destroy some gloves at this point.
 
  
 <img src="Images/A4.jpg" width="650" height="150"> 
 Figure 4. Complete valve assembly process. A) Applying glue to  the cap for gluing to body B) Putting both the bottom and top cap together and C) using clamps D) Test the device to confirm that it is not leaking and correctly kinking. 
 
-13.	Also, don’t apply too much pressure when sticking them together. Having a lot of glue between cap and body makes a very robust seal and helps the structure retain high pressure. It’s encouraged to apply more glue to ensure air-tightness. This is the final chance to fix non-perpendicular problem. Make sure to make it perpendicular.
-14.	Once you have the valve entirely assembled, please check for the airtightness (Figure 4D).
-15.	Configure the valve to NOT gate and check if you are able to obtain that behavior.
-
-4.	Configuration process (First for the testing purpose, you will configure the device into NOT gate. Here is the configuration schematic. You will include the truth table of the device in the lab report. Also, you will configure the device into AND gate and OR gate, include the truth table for the configurations.)
+12.	Also, don’t apply too much pressure when sticking them together. Having a lot of glue between cap and body makes a very robust seal and helps the structure retain high pressure. It’s encouraged to apply more glue to ensure air-tightness. This is the final chance to fix non-perpendicular problem. Make sure to make it perpendicular.
+13.	Once you have the valve entirely assembled, please check for the airtightness (Figure 4D).
+14.	Configure the valve to NOT gate and check if you are able to obtain that behavior.
+15.	Configuration process (First for the testing purpose, you will configure the device into NOT gate. You will include the truth table of the device in the lab report. Also, you will configure the device into AND gate and OR gate, include the truth table for the configurations.)
 
 
 Note:
-The CAD file, stl file, gcode, printer configurations are also provided in the same folder.
+The CAD file, stl file, gcode, printer configurations are provided in the folder.
 
 
-## Characterization of the Device
-
-
-<!--
-<div style="display: flex; flex-direction: row;">
-    <img src="pic/nozzle_design.png" width="50%" />
-    <p>
-    hello
-    </p>
-    <img src="pic/nozzle_design.png" width="50%" />
-</div>
--->
-<!--
-<div style="display: flex; align-items: center;">
-    <div style="flex: 1;">
-        <img src="pic/XOR_demo.png" style="max-width: 100%; height: auto;" />
-    </div>
-    <div style="flex: 1; padding: 0 20px;">
-        <p>
-        Optimised XOR gate. (A) An INHIBIT gate along with the truth table and schematic representation. (B) The circuit diagram of XOR gate with five logic gates. When we optimise the XOR gate using an INHIBIT gate, we only require three logic gates. (C) The assembly of a XOR gate from our 3D printed valves. (D) Implementation of an optimized XOR gate with the output directly connected to a soft display. When both inputs of the XOR gate are HIGH ($A=1$ and $B=1$), the output is LOW ($Q=0$).
-        <!-- This demo shows how making the XOR gate from the mono-stable valves. It also showcases how the INHIBIT gate configuration can dramastically simplify the number of gates and connections in a circuit. This design trick is also evident in subsequent demos. -->
-        </p>
-    </div>
-
-
-<!--
-</div>
-
-<br>
-<div style="display: flex; align-items: center;">
-    <div style="flex: 1;">
-        <img src="pic/Dlatch_demo.png" style="max-width: 100%; height: auto;" />
-    </div>
-    <div style="flex: 1; padding: 0 20px;">
-        <p>
-        Optimized D-latch circuit. (A) The diagram of a conventional D-latch circuit from six logic gates and the optimized circuit from three logic gates using an INHIBIT gate with a set-reset latch. (B) We modified the 3D printed valve design to create a bistable device; bistable devices act as non-volatile SR latches. (C) Implementation of a D-latch using our 3D printed valves and a soft display. When both the data and clock inputs are HIGH ($D = 1$ and $CLK = 1$), the output turns HIGH ($Q=1$).
-        </p>
-    </div>
-</div>
-
--->
-
-
-
-
-
-## Link to supplemental resources
-This file contains links to the supplemental information on how to construct the soft fluidic valve. It also includes important physical considerations for the operation of the valve. 
+## References
 
 [1] A soft, bistable valve for autonomous control of soft actuators  
 P. Rothemund, A. Ainla, L. Belding, D.J. Preston, S. Kurihara, Z. Suo, G.M. Whitesides  
