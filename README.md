@@ -1,18 +1,23 @@
 # 3D Printed Valve
-A 3D printed valve is a device that has a membrane that opens or closes tubing depending on the way the membrane is flipped; acting analogously to a CMOS transistor in an electrical circuit. This 3D printed soft fluidic valve can be configured to function as either an OR-gate, an AND-gate, or a NOT-gate.
+A 3D printed valve is equipped with a membrane that opens or closes tubing based on how the membrane is oriented; functioning similarly to a CMOS transistor in an electrical circuit. This 3D printed soft fluidic valve can operate as an OR-gate, an AND-gate, or a NOT-gate.
 
-This repository will serve as a user guide for the 3D printable valve. Topics covered include: (1) Fabrication and Assembly Guide, (2) Device Characterization, (3) Demonstrations, (4) Tube Extruding Nozzle Design, and (5) Feedback from using the device as an educational tool. Since the design is based on the valve concept introduced in the "Digital Logic for Soft Devices" paper [2], we occasionally refer to our designs as soft bi-stable/mono-stable valves as well.
-
+This repository serves as a user guide for the 3D printable valve and covers various topics: 
+* Fabrication and Assembly Guide
+* Device Characterization
+* Demonstrations
+* Tube Extruding Nozzle Design
+* Feedback for using the device as an educational tool
+ 
 ## Fabrication and Aseembly Instructions
 
 ## Bill of material:
 * Mk3S 3D printer (https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-3/)
-* Filaflex 60 A filament(https://recreus.com/gb/filaments/1-filaflex-60a.html)
-* Ninjaflex 85 A filament (https://ninjatek.com/shop/ninjaflex/)
+* Filaflex 60A filament(https://recreus.com/gb/filaments/1-filaflex-60a.html)
+* Ninjaflex 85A filament (https://ninjatek.com/shop/ninjaflex/)
 * Extruding nozzle
 
 The 3D printed soft fluidic valve consists of 3 components (Figure 1A)
-* Body with membrane 
+* Body with membrane (1x)
 * Caps (2x)
 *	Extruded tubing (2x) 
 
@@ -20,7 +25,7 @@ The 3D printed soft fluidic valve consists of 3 components (Figure 1A)
 Figure 1. The 3D printed soft fluidic valve. A) The exploded view of the valve along with its components B) Cut view of 3D printed valve and C) fully assembled valve D) CAD file of the cap.
 
 ## Fabrication of Body and Caps
-The 3D printed valve is categorised into two design, monostable- and bistable design. We uploaded the CAD file, stl. file, gcode profiles for body and caps in the CAD folder of this repository. 
+The 3D printed valve is categorised into two design, mono- and bistable design. We uploaded the CAD file, stl. file, gcode profiles for body and caps in the CAD folder of this repository. 
 
 Here is the video of 3D printing body and caps on Prusa Mk3S printer (https://youtu.be/z_FRGywTmZA)
 
@@ -32,7 +37,7 @@ Here is the video of 3D printing body and caps on Prusa Mk3S printer (https://yo
 This figure shows 3D model of the tube-extruding printing nozzle including a schematic and a cross-sectional view. 
 
 [https://www.youtube.com/watch?v=pW0tsSzDVcI] is a video showing the tube-extruding in progress. We used a Prusa Mini+ FDM printer ($399) and the open-source Pronterface
-software to control the printer. To extrude the tubes, we use G-code commands to configure the print parameters and initiate the tubing extrusion process. Using Ninjaflex 85A, we set the nozzle temperature to 235 ◦C at 100% fan speed and extruded 1000 mm of filament. Here are the commands to extrude tubings. 
+software to control the printer. To extrude the tubes, we use G-code commands to configure the print parameters and initiate the tubing extrusion process. For Ninjaflex 85A filament, we set the nozzle temperature to 235 ◦C at 100% fan speed and extrude 1000 mm of filament. Here are the commands to extrude tubing. 
 * G91			# relative positioning
 * (G0 z10)		# test if relative positioning work
 * M83			# relative extruder positioning
@@ -56,18 +61,17 @@ Figure 2. Assembly process of 3D printed valve. A) The tools and components requ
 
 
 Please follow provided instructions for the assembly process of the 3D printed valve
-1.	First, we will start with the cap and tubing. The tubings are extruded using a custom nozzle. Also check for thinner side of tube and put the thicker side inwards (to not easily kink). Figure 2B shows a wrong configuration where the thinner side of tubing is facing inward, and the tube will kink by itself. 
-2.	NOTE: This step is especially important. It is one of the most common causes of failure. Feel free to throw away pieces of tubing that always kink by itself in any direction (Figure 2B).
-3.	We use following tube lengths for the top and bottom side of the tubing.
+1.	First, we will start with the cap and tubing. The tubes are extruded using a custom nozzle. The tubes are extruded using a custom nozzle. Also, ensure to check for the thinner side of the tube and position the thicker side inwards to prevent easy kinking. Refer to Figure 2B, which illustrates an incorrect configuration where the thinner side of the tubing faces inward, leading to potential kinking issues. This step is especially important. It is one of the most common causes of failure. Feel free to throw away pieces of tubing that always kink by itself in any direction (Figure 2B).
+2.	We use following tube lengths for the top and bottom side of the tubing.
 *	Top: 11.5 mm + 1.5 mm spacer
 *	Bottom: 8 mm
-4.	Before sticking the tubes, soften them by crushing it in different directions (kink every single part of tube, thus tube is less prone to kink by itself) (Figure 2B).
+3. Before sticking the tubes, soften them by crushing it in different directions (kink every single part of tube, thus tube is less prone to kink by itself) (Figure 2B).
 
 
 <img src="Images/A3.jpg" width="550" height="150"> 
-Figure 3Top tube assembly process. A) Applying glue to the spacer of the top tubing B) Use the 3D printed tool to make sure the tube is perfectly perpendicular and C) applying slight pressure to stick spacer to the membrane
+Figure 3 Top tube assembly process. A) Applying glue to the spacer of the top tubing B) Use the 3D printed tool to make sure that the tube is perfectly perpendicular and C) applying slight pressure to stick spacer to the membrane
 
-5.	First, we will start inserting the top tube through the holes of top cap. Make sure the distance for the top tube is 11.5 mm and bottom tube is 8 mm. Please measure the distance using vernier caliper (Figure 2C). The 1 mm spacer is the part of the tube, cut 1.5 mm piece and attach to the tubing as shown. Apply glue to top of tube and stick to the spacer (Figure 2D).
+4.	First, we will start inserting the top tube through the holes of top cap. Make sure the distance for the top tube is 11.5 mm and bottom tube is 8 mm. Please measure the distance using vernier caliper (Figure 2C). The 1 mm spacer is the part of the tube, cut 1.5 mm piece and attach to the tubing as shown. Apply glue to top of tube and stick to the spacer (Figure 2D).
 6.	Write down length of tube at the bottom of cap (write “8” or “11.5+1.5”). When glue is dried, start assembling the cap to the body.
 7.	Apply half a drop / a drop of glue to top of spacer. With help of the printed tool, slightly press the spacer at the center of membrane (Figure 3A and 3B).
 8.	Make sure that the tube is perfectly perpendicular to the holes on membrane body (all three lines in Figure 3B are perpendicular to each other) (Figure 3C). When glue dries, start to glue top cap to the body.
