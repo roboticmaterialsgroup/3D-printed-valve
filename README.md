@@ -2,21 +2,21 @@
 A 3D printed valve is equipped with a membrane that opens or closes tubing based on how the membrane is oriented; functioning similarly to a CMOS transistor in an electrical circuit. This 3D printed soft fluidic valve can operate as an OR-gate, an AND-gate, or a NOT-gate.
 
 This repository serves as a user guide for the 3D printable valve and covers various topics: 
-* Fabrication and Assembly Guide
-* Device Characterization
+* Fabrication and assembly guide
+* Device characterization
 * Demonstrations
-* Tube Extruding Nozzle Design
+* Tube extruding nozzle design
 * Feedback for using the device as an educational tool
  
-## Fabrication and Aseembly Instructions
+## Fabrication and aseembly instructions
 
 ## Bill of material:
-* Mk3S 3D printer (https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-3/)
-* Filaflex 60A filament(https://recreus.com/gb/filaments/1-filaflex-60a.html)
-* Ninjaflex 85A filament (https://ninjatek.com/shop/ninjaflex/)
+* Prusa Mk3S+ 3D printer (https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-3/)
+* Recreus's filaflex 60A filament(https://recreus.com/gb/filaments/1-filaflex-60a.html)
+* NinjaTek's ninjaflex 85A filament (https://ninjatek.com/shop/ninjaflex/)
 * Extruding nozzle
 
-The 3D printed soft fluidic valve consists of 3 components (Figure 1A)
+The 3D printed soft fluidic valve consists of three components (Figure 1A)
 * Body with membrane (1x)
 * Caps (2x)
 *	Extruded tubing (2x) 
@@ -24,10 +24,10 @@ The 3D printed soft fluidic valve consists of 3 components (Figure 1A)
 <img src="Images/A1.png" width="450" height="400"> 
 Figure 1. The 3D printed soft fluidic valve. A) The exploded view of the valve along with its components B) Cut view of 3D printed valve and C) fully assembled valve D) CAD file of the cap.
 
-## Fabrication of Body and Caps
-The 3D printed valve is categorized into two designs: mono- and bistable designs. We have uploaded the CAD file, STL file, and G-code profiles for the body and caps in the CAD folder of this repository.
+## Fabrication of body and caps
+The 3D printed valve is categorized into two designs: mono- and bi-stable designs. We have uploaded the CAD files, STL files, and G-code profiles for the body and caps in the CAD folder of this repository.
 
-Here is the video of 3D printing the body and caps on the Prusa Mk3S printer (https://youtu.be/z_FRGywTmZA)
+Here is the video of 3D printing the body and caps on the Prusa Mk3S+ printer (https://youtu.be/z_FRGywTmZA)
 
 
 ## Fabrication of extuding tubing
@@ -61,7 +61,7 @@ Figure 2. Assembly process of 3D printed valve. A) The tools and components requ
 
 
 Please follow provided instructions for the assembly process of the 3D printed valve
-1.	First, we will start with the cap and tubing. The tubes are extruded using a custom nozzle. The tubes are extruded using a custom nozzle. Also, ensure to check for the thinner side of the tube and position the thicker side inwards to prevent easy kinking. Refer to Figure 2B, which illustrates an incorrect configuration where the thinner side of the tubing faces inward, leading to potential kinking issues. This step is especially important. It is one of the most common causes of failure. Feel free to throw away pieces of tubing that always kink by itself in any direction (Figure 2B).
+1.	First, we will start with the cap and tubing. The tubes are extruded using a custom nozzle. Also, ensure to check for the thinner side of the tube and position the thicker side inwards to prevent easy kinking. Refer to Figure 2B, which illustrates an incorrect configuration where the thinner side of the tubing faces inward, leading to potential kinking issues. This step is especially important. It is one of the most common causes of failure. Feel free to throw away pieces of tubing that always kink by itself in any direction (Figure 2B).
 2.	We use following tube lengths for the top and bottom side of the tubing.
 *	Top: 11.5 mm + 1.5 mm spacer
 *	Bottom: 8 mm
